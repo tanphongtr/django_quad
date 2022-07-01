@@ -41,7 +41,9 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'core',
-    
+    'api',
+    'web',
+
 ]
 
 MIDDLEWARE = [
