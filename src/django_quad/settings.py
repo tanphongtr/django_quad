@@ -41,9 +41,13 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'app',
+    'rest_api',
+]
+
+INSTALLED_APPS += [
     'debug_toolbar',
-    'constance',
-    'constance.backends.database',
+    # 'constance',
+    # 'constance.backends.database',
 ]
 
 MIDDLEWARE = [
